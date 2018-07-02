@@ -127,7 +127,7 @@ finish:
 }
 
 const char *pid_file_proc() {
-    static char fn[PATH_MAX];
+    static char fn[4096];
     snprintf(fn, sizeof(fn), "%s/ifplugd.%s.pid", VARRUN, interface);
     return fn;
 }
