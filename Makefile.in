@@ -183,7 +183,7 @@ sharedstatedir = @sharedstatedir@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 EXTRA_DIST = bootstrap.sh README LICENSE ifplugd.spec ifplugd.spec.in
-SUBDIRS = src man conf doc patches
+SUBDIRS = src man doc patches
 MAINTAINERCLEANFILES = README ifplugd.spec
 noinst_DATA = README ifplugd.spec
 all: config.h
